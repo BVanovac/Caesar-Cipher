@@ -15,6 +15,7 @@ Since these projects directly follow the sections on pseudocode and problem solv
 Plan
 
 Take a string and shift factor from user. For each character, check if it is uppercase, lowercase, a number, or something else, in which case leave it as is. Using the appropriate ASCII range, add the shift factor to the character's ASCII value, wrapping left or right as necessary.
+
 Pseudocode
 
 For each char in string:
