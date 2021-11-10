@@ -6,11 +6,12 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 
   > caesar_cipher("What a string!", 5)
   => "Bmfy f xywnsl!"
-
 Update: Added rspec tests.
+
 Thoughts
 
 Since these projects directly follow the sections on pseudocode and problem solving, I thought I should go through the steps of actually writing them down. It was somewhat tedious to do, but I think my end result was slightly more elegant as a result. The function translates upper and lowercase letters and numbers, while ignoring symbols.
+
 Plan
 
 Take a string and shift factor from user. For each character, check if it is uppercase, lowercase, a number, or something else, in which case leave it as is. Using the appropriate ASCII range, add the shift factor to the character's ASCII value, wrapping left or right as necessary.
